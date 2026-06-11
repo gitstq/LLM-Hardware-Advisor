@@ -1,0 +1,1131 @@
+[
+  {
+    "name": "Llama 3.1 8B",
+    "provider": "Meta",
+    "parameter_count": "8B",
+    "param_billions": 8,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 16,
+      "int8": 9,
+      "int4": 5
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Llama 3.1 Community",
+    "huggingface_id": "meta-llama/Llama-3.1-8B",
+    "tags": ["popular", "recommended"]
+  },
+  {
+    "name": "Llama 3.1 70B",
+    "provider": "Meta",
+    "parameter_count": "70B",
+    "param_billions": 70,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 140,
+      "int8": 75,
+      "int4": 40
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Llama 3.1 Community",
+    "huggingface_id": "meta-llama/Llama-3.1-70B",
+    "tags": ["popular"]
+  },
+  {
+    "name": "Llama 3.1 405B",
+    "provider": "Meta",
+    "parameter_count": "405B",
+    "param_billions": 405,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 810,
+      "int8": 430,
+      "int4": 230
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Llama 3.1 Community",
+    "huggingface_id": "meta-llama/Llama-3.1-405B",
+    "tags": ["flagship"]
+  },
+  {
+    "name": "Llama 3.2 1B",
+    "provider": "Meta",
+    "parameter_count": "1B",
+    "param_billions": 1,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 2,
+      "int8": 1.5,
+      "int4": 0.8
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Llama 3.2 Community",
+    "huggingface_id": "meta-llama/Llama-3.2-1B",
+    "tags": ["lightweight", "recommended"]
+  },
+  {
+    "name": "Llama 3.2 3B",
+    "provider": "Meta",
+    "parameter_count": "3B",
+    "param_billions": 3,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 6,
+      "int8": 3.5,
+      "int4": 2
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Llama 3.2 Community",
+    "huggingface_id": "meta-llama/Llama-3.2-3B",
+    "tags": ["lightweight", "recommended"]
+  },
+  {
+    "name": "Llama 3.2 11B",
+    "provider": "Meta",
+    "parameter_count": "11B",
+    "param_billions": 11,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 22,
+      "int8": 12,
+      "int4": 7
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Llama 3.2 Community",
+    "huggingface_id": "meta-llama/Llama-3.2-11B",
+    "tags": ["popular"]
+  },
+  {
+    "name": "Llama 3.3 70B",
+    "provider": "Meta",
+    "parameter_count": "70B",
+    "param_billions": 70,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 140,
+      "int8": 75,
+      "int4": 40
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Llama 3.3 Community",
+    "huggingface_id": "meta-llama/Llama-3.3-70B",
+    "tags": ["popular", "recommended"]
+  },
+  {
+    "name": "Qwen 2.5 0.5B",
+    "provider": "Alibaba",
+    "parameter_count": "0.5B",
+    "param_billions": 0.5,
+    "context_length": 32768,
+    "vram_requirements": {
+      "fp16": 1,
+      "int8": 0.8,
+      "int4": 0.5
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "Qwen/Qwen2.5-0.5B",
+    "tags": ["lightweight"]
+  },
+  {
+    "name": "Qwen 2.5 1.5B",
+    "provider": "Alibaba",
+    "parameter_count": "1.5B",
+    "param_billions": 1.5,
+    "context_length": 32768,
+    "vram_requirements": {
+      "fp16": 3,
+      "int8": 2,
+      "int4": 1
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "Qwen/Qwen2.5-1.5B",
+    "tags": ["lightweight", "recommended"]
+  },
+  {
+    "name": "Qwen 2.5 3B",
+    "provider": "Alibaba",
+    "parameter_count": "3B",
+    "param_billions": 3,
+    "context_length": 32768,
+    "vram_requirements": {
+      "fp16": 6,
+      "int8": 3.5,
+      "int4": 2
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "Qwen/Qwen2.5-3B",
+    "tags": ["recommended"]
+  },
+  {
+    "name": "Qwen 2.5 7B",
+    "provider": "Alibaba",
+    "parameter_count": "7B",
+    "param_billions": 7,
+    "context_length": 32768,
+    "vram_requirements": {
+      "fp16": 14,
+      "int8": 8,
+      "int4": 5
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "Qwen/Qwen2.5-7B",
+    "tags": ["popular", "recommended"]
+  },
+  {
+    "name": "Qwen 2.5 14B",
+    "provider": "Alibaba",
+    "parameter_count": "14B",
+    "param_billions": 14,
+    "context_length": 32768,
+    "vram_requirements": {
+      "fp16": 28,
+      "int8": 15,
+      "int4": 9
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "Qwen/Qwen2.5-14B",
+    "tags": ["popular"]
+  },
+  {
+    "name": "Qwen 2.5 32B",
+    "provider": "Alibaba",
+    "parameter_count": "32B",
+    "param_billions": 32,
+    "context_length": 32768,
+    "vram_requirements": {
+      "fp16": 64,
+      "int8": 34,
+      "int4": 19
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "Qwen/Qwen2.5-32B",
+    "tags": ["popular"]
+  },
+  {
+    "name": "Qwen 2.5 72B",
+    "provider": "Alibaba",
+    "parameter_count": "72B",
+    "param_billions": 72,
+    "context_length": 32768,
+    "vram_requirements": {
+      "fp16": 144,
+      "int8": 77,
+      "int4": 42
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "Qwen/Qwen2.5-72B",
+    "tags": ["flagship"]
+  },
+  {
+    "name": "Qwen 3 1.7B",
+    "provider": "Alibaba",
+    "parameter_count": "1.7B",
+    "param_billions": 1.7,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 3.4,
+      "int8": 2,
+      "int4": 1.2
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "Qwen/Qwen3-1.7B",
+    "tags": ["lightweight", "recommended"]
+  },
+  {
+    "name": "Qwen 3 4B",
+    "provider": "Alibaba",
+    "parameter_count": "4B",
+    "param_billions": 4,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 8,
+      "int8": 4.5,
+      "int4": 2.8
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "Qwen/Qwen3-4B",
+    "tags": ["recommended"]
+  },
+  {
+    "name": "Qwen 3 8B",
+    "provider": "Alibaba",
+    "parameter_count": "8B",
+    "param_billions": 8,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 16,
+      "int8": 9,
+      "int4": 5.5
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "Qwen/Qwen3-8B",
+    "tags": ["popular", "recommended"]
+  },
+  {
+    "name": "Qwen 3 14B",
+    "provider": "Alibaba",
+    "parameter_count": "14B",
+    "param_billions": 14,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 28,
+      "int8": 15,
+      "int4": 9
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "Qwen/Qwen3-14B",
+    "tags": ["popular"]
+  },
+  {
+    "name": "Qwen 3 32B",
+    "provider": "Alibaba",
+    "parameter_count": "32B",
+    "param_billions": 32,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 64,
+      "int8": 34,
+      "int4": 19
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "Qwen/Qwen3-32B",
+    "tags": ["popular"]
+  },
+  {
+    "name": "Qwen 3 235B-A22B",
+    "provider": "Alibaba",
+    "parameter_count": "235B-A22B (MoE)",
+    "param_billions": 235,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 470,
+      "int8": 250,
+      "int4": 130
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "Qwen/Qwen3-235B-A22B",
+    "tags": ["flagship", "moe"],
+    "active_params": 22
+  },
+  {
+    "name": "DeepSeek V3",
+    "provider": "DeepSeek",
+    "parameter_count": "671B MoE (37B active)",
+    "param_billions": 671,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 1342,
+      "int8": 710,
+      "int4": 370
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "DeepSeek License",
+    "huggingface_id": "deepseek-ai/DeepSeek-V3",
+    "tags": ["flagship", "moe"],
+    "active_params": 37
+  },
+  {
+    "name": "DeepSeek R1",
+    "provider": "DeepSeek",
+    "parameter_count": "671B MoE (37B active)",
+    "param_billions": 671,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 1342,
+      "int8": 710,
+      "int4": 370
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "reasoning",
+    "license": "DeepSeek License",
+    "huggingface_id": "deepseek-ai/DeepSeek-R1",
+    "tags": ["flagship", "moe", "reasoning"],
+    "active_params": 37
+  },
+  {
+    "name": "DeepSeek-Coder-V2",
+    "provider": "DeepSeek",
+    "parameter_count": "236B MoE (21B active)",
+    "param_billions": 236,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 472,
+      "int8": 250,
+      "int4": 130
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "coding",
+    "license": "DeepSeek License",
+    "huggingface_id": "deepseek-ai/DeepSeek-Coder-V2",
+    "tags": ["flagship", "moe", "coding"],
+    "active_params": 21
+  },
+  {
+    "name": "Mistral 7B",
+    "provider": "Mistral AI",
+    "parameter_count": "7B",
+    "param_billions": 7,
+    "context_length": 32768,
+    "vram_requirements": {
+      "fp16": 14,
+      "int8": 8,
+      "int4": 5
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "mistralai/Mistral-7B-v0.3",
+    "tags": ["popular", "recommended"]
+  },
+  {
+    "name": "Mixtral 8x7B",
+    "provider": "Mistral AI",
+    "parameter_count": "46.7B MoE (12.9B active)",
+    "param_billions": 47,
+    "context_length": 32768,
+    "vram_requirements": {
+      "fp16": 94,
+      "int8": 50,
+      "int4": 27
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "mistralai/Mixtral-8x7B-v0.1",
+    "tags": ["popular", "moe"],
+    "active_params": 13
+  },
+  {
+    "name": "Mixtral 8x22B",
+    "provider": "Mistral AI",
+    "parameter_count": "140B MoE (39B active)",
+    "param_billions": 140,
+    "context_length": 65536,
+    "vram_requirements": {
+      "fp16": 280,
+      "int8": 150,
+      "int4": 80
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "mistralai/Mixtral-8x22B-v0.1",
+    "tags": ["moe"],
+    "active_params": 39
+  },
+  {
+    "name": "Mistral Small 24B",
+    "provider": "Mistral AI",
+    "parameter_count": "24B",
+    "param_billions": 24,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 48,
+      "int8": 26,
+      "int4": 15
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "mistralai/Mistral-Small-24B-Base-2501",
+    "tags": ["popular"]
+  },
+  {
+    "name": "Mistral Large 123B",
+    "provider": "Mistral AI",
+    "parameter_count": "123B",
+    "param_billions": 123,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 246,
+      "int8": 130,
+      "int4": 70
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Mistral AI License",
+    "huggingface_id": "mistralai/Mistral-Large-123B",
+    "tags": ["flagship"]
+  },
+  {
+    "name": "Phi-3 Mini 3.8B",
+    "provider": "Microsoft",
+    "parameter_count": "3.8B",
+    "param_billions": 3.8,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 7.6,
+      "int8": 4.5,
+      "int4": 2.5
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "MIT",
+    "huggingface_id": "microsoft/Phi-3-mini-4k-instruct",
+    "tags": ["lightweight", "recommended"]
+  },
+  {
+    "name": "Phi-3 Small 7B",
+    "provider": "Microsoft",
+    "parameter_count": "7B",
+    "param_billions": 7,
+    "context_length": 8192,
+    "vram_requirements": {
+      "fp16": 14,
+      "int8": 8,
+      "int4": 5
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "MIT",
+    "huggingface_id": "microsoft/Phi-3-small-8k-instruct",
+    "tags": ["recommended"]
+  },
+  {
+    "name": "Phi-3 Medium 14B",
+    "provider": "Microsoft",
+    "parameter_count": "14B",
+    "param_billions": 14,
+    "context_length": 8192,
+    "vram_requirements": {
+      "fp16": 28,
+      "int8": 15,
+      "int4": 9
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "MIT",
+    "huggingface_id": "microsoft/Phi-3-medium-4k-instruct",
+    "tags": ["popular"]
+  },
+  {
+    "name": "Phi-4 14B",
+    "provider": "Microsoft",
+    "parameter_count": "14B",
+    "param_billions": 14,
+    "context_length": 16384,
+    "vram_requirements": {
+      "fp16": 28,
+      "int8": 15,
+      "int4": 9
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "MIT",
+    "huggingface_id": "microsoft/phi-4",
+    "tags": ["popular", "recommended"]
+  },
+  {
+    "name": "Gemma 2 2B",
+    "provider": "Google",
+    "parameter_count": "2B",
+    "param_billions": 2,
+    "context_length": 8192,
+    "vram_requirements": {
+      "fp16": 4,
+      "int8": 2.5,
+      "int4": 1.5
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Gemma License",
+    "huggingface_id": "google/gemma-2-2b",
+    "tags": ["lightweight"]
+  },
+  {
+    "name": "Gemma 2 9B",
+    "provider": "Google",
+    "parameter_count": "9B",
+    "param_billions": 9,
+    "context_length": 8192,
+    "vram_requirements": {
+      "fp16": 18,
+      "int8": 10,
+      "int4": 6
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Gemma License",
+    "huggingface_id": "google/gemma-2-9b",
+    "tags": ["popular", "recommended"]
+  },
+  {
+    "name": "Gemma 2 27B",
+    "provider": "Google",
+    "parameter_count": "27B",
+    "param_billions": 27,
+    "context_length": 8192,
+    "vram_requirements": {
+      "fp16": 54,
+      "int8": 29,
+      "int4": 16
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Gemma License",
+    "huggingface_id": "google/gemma-2-27b",
+    "tags": ["popular"]
+  },
+  {
+    "name": "Gemma 3 1B",
+    "provider": "Google",
+    "parameter_count": "1B",
+    "param_billions": 1,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 2,
+      "int8": 1.5,
+      "int4": 0.8
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Gemma License",
+    "huggingface_id": "google/gemma-3-1b",
+    "tags": ["lightweight"]
+  },
+  {
+    "name": "Gemma 3 4B",
+    "provider": "Google",
+    "parameter_count": "4B",
+    "param_billions": 4,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 8,
+      "int8": 4.5,
+      "int4": 3
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Gemma License",
+    "huggingface_id": "google/gemma-3-4b",
+    "tags": ["recommended"]
+  },
+  {
+    "name": "Gemma 3 12B",
+    "provider": "Google",
+    "parameter_count": "12B",
+    "param_billions": 12,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 24,
+      "int8": 13,
+      "int4": 8
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Gemma License",
+    "huggingface_id": "google/gemma-3-12b",
+    "tags": ["popular"]
+  },
+  {
+    "name": "Gemma 3 27B",
+    "provider": "Google",
+    "parameter_count": "27B",
+    "param_billions": 27,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 54,
+      "int8": 29,
+      "int4": 16
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Gemma License",
+    "huggingface_id": "google/gemma-3-27b",
+    "tags": ["popular"]
+  },
+  {
+    "name": "CodeLlama 7B",
+    "provider": "Meta",
+    "parameter_count": "7B",
+    "param_billions": 7,
+    "context_length": 16384,
+    "vram_requirements": {
+      "fp16": 14,
+      "int8": 8,
+      "int4": 5
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "coding",
+    "license": "Llama 2 Community",
+    "huggingface_id": "codellama/CodeLlama-7b",
+    "tags": ["coding"]
+  },
+  {
+    "name": "CodeLlama 13B",
+    "provider": "Meta",
+    "parameter_count": "13B",
+    "param_billions": 13,
+    "context_length": 16384,
+    "vram_requirements": {
+      "fp16": 26,
+      "int8": 14,
+      "int4": 8
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "coding",
+    "license": "Llama 2 Community",
+    "huggingface_id": "codellama/CodeLlama-13b",
+    "tags": ["coding"]
+  },
+  {
+    "name": "CodeLlama 34B",
+    "provider": "Meta",
+    "parameter_count": "34B",
+    "param_billions": 34,
+    "context_length": 16384,
+    "vram_requirements": {
+      "fp16": 68,
+      "int8": 36,
+      "int4": 20
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "coding",
+    "license": "Llama 2 Community",
+    "huggingface_id": "codellama/CodeLlama-34b",
+    "tags": ["coding"]
+  },
+  {
+    "name": "CodeLlama 70B",
+    "provider": "Meta",
+    "parameter_count": "70B",
+    "param_billions": 70,
+    "context_length": 16384,
+    "vram_requirements": {
+      "fp16": 140,
+      "int8": 75,
+      "int4": 40
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "coding",
+    "license": "Llama 2 Community",
+    "huggingface_id": "codellama/CodeLlama-70b",
+    "tags": ["coding"]
+  },
+  {
+    "name": "StarCoder2 3B",
+    "provider": "BigCode",
+    "parameter_count": "3B",
+    "param_billions": 3,
+    "context_length": 16384,
+    "vram_requirements": {
+      "fp16": 6,
+      "int8": 3.5,
+      "int4": 2
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "coding",
+    "license": "BigCode OpenRAIL-M",
+    "huggingface_id": "bigcode/starcoder2-3b",
+    "tags": ["coding"]
+  },
+  {
+    "name": "StarCoder2 7B",
+    "provider": "BigCode",
+    "parameter_count": "7B",
+    "param_billions": 7,
+    "context_length": 16384,
+    "vram_requirements": {
+      "fp16": 14,
+      "int8": 8,
+      "int4": 5
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "coding",
+    "license": "BigCode OpenRAIL-M",
+    "huggingface_id": "bigcode/starcoder2-7b",
+    "tags": ["coding", "recommended"]
+  },
+  {
+    "name": "StarCoder2 15B",
+    "provider": "BigCode",
+    "parameter_count": "15B",
+    "param_billions": 15,
+    "context_length": 16384,
+    "vram_requirements": {
+      "fp16": 30,
+      "int8": 16,
+      "int4": 9.5
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "coding",
+    "license": "BigCode OpenRAIL-M",
+    "huggingface_id": "bigcode/starcoder2-15b",
+    "tags": ["coding"]
+  },
+  {
+    "name": "Yi-1.5 6B",
+    "provider": "01.AI",
+    "parameter_count": "6B",
+    "param_billions": 6,
+    "context_length": 4096,
+    "vram_requirements": {
+      "fp16": 12,
+      "int8": 7,
+      "int4": 4
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "01-ai/Yi-1.5-6B",
+    "tags": []
+  },
+  {
+    "name": "Yi-1.5 9B",
+    "provider": "01.AI",
+    "parameter_count": "9B",
+    "param_billions": 9,
+    "context_length": 4096,
+    "vram_requirements": {
+      "fp16": 18,
+      "int8": 10,
+      "int4": 6
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "01-ai/Yi-1.5-9B",
+    "tags": []
+  },
+  {
+    "name": "Yi-1.5 34B",
+    "provider": "01.AI",
+    "parameter_count": "34B",
+    "param_billions": 34,
+    "context_length": 4096,
+    "vram_requirements": {
+      "fp16": 68,
+      "int8": 36,
+      "int4": 20
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "01-ai/Yi-1.5-34B",
+    "tags": []
+  },
+  {
+    "name": "Command R 35B",
+    "provider": "Cohere",
+    "parameter_count": "35B",
+    "param_billions": 35,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 70,
+      "int8": 38,
+      "int4": 21
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "CC-BY-NC-4.0",
+    "huggingface_id": "CohereForAI/c4ai-command-r-v01",
+    "tags": ["popular"]
+  },
+  {
+    "name": "Command R+ 104B",
+    "provider": "Cohere",
+    "parameter_count": "104B",
+    "param_billions": 104,
+    "context_length": 131072,
+    "vram_requirements": {
+      "fp16": 208,
+      "int8": 110,
+      "int4": 60
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "CC-BY-NC-4.0",
+    "huggingface_id": "CohereForAI/c4ai-command-r-plus-v01",
+    "tags": ["flagship"]
+  },
+  {
+    "name": "InternLM2 7B",
+    "provider": "Shanghai AI Lab",
+    "parameter_count": "7B",
+    "param_billions": 7,
+    "context_length": 32768,
+    "vram_requirements": {
+      "fp16": 14,
+      "int8": 8,
+      "int4": 5
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "internlm/internlm2_5-7b",
+    "tags": ["recommended"]
+  },
+  {
+    "name": "InternLM2 20B",
+    "provider": "Shanghai AI Lab",
+    "parameter_count": "20B",
+    "param_billions": 20,
+    "context_length": 32768,
+    "vram_requirements": {
+      "fp16": 40,
+      "int8": 22,
+      "int4": 12
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "internlm/internlm2_5-20b",
+    "tags": []
+  },
+  {
+    "name": "MiniCPM 2.4B",
+    "provider": "Tsinghua/ModelBest",
+    "parameter_count": "2.4B",
+    "param_billions": 2.4,
+    "context_length": 32768,
+    "vram_requirements": {
+      "fp16": 4.8,
+      "int8": 3,
+      "int4": 1.8
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "openbmb/MiniCPM-2.4-sft-bf16",
+    "tags": ["lightweight", "recommended"]
+  },
+  {
+    "name": "OLMo 7B",
+    "provider": "Allen AI",
+    "parameter_count": "7B",
+    "param_billions": 7,
+    "context_length": 2048,
+    "vram_requirements": {
+      "fp16": 14,
+      "int8": 8,
+      "int4": 5
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "allenai/OLMo-7B",
+    "tags": []
+  },
+  {
+    "name": "StableLM 2 1.6B",
+    "provider": "Stability AI",
+    "parameter_count": "1.6B",
+    "param_billions": 1.6,
+    "context_length": 4096,
+    "vram_requirements": {
+      "fp16": 3.2,
+      "int8": 2,
+      "int4": 1.2
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "stabilityai/stablelm-2-1_6b",
+    "tags": ["lightweight"]
+  },
+  {
+    "name": "StableLM 2 12B",
+    "provider": "Stability AI",
+    "parameter_count": "12B",
+    "param_billions": 12,
+    "context_length": 4096,
+    "vram_requirements": {
+      "fp16": 24,
+      "int8": 13,
+      "int4": 8
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "stabilityai/stablelm-2-12b",
+    "tags": []
+  },
+  {
+    "name": "Falcon 2 11B",
+    "provider": "Technology Innovation Institute",
+    "parameter_count": "11B",
+    "param_billions": 11,
+    "context_length": 8192,
+    "vram_requirements": {
+      "fp16": 22,
+      "int8": 12,
+      "int4": 7
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "TII Falcon 2 License",
+    "huggingface_id": "tiiuae/falcon-11B",
+    "tags": []
+  },
+  {
+    "name": "Zephyr 7B",
+    "provider": "HuggingFace",
+    "parameter_count": "7B",
+    "param_billions": 7,
+    "context_length": 8192,
+    "vram_requirements": {
+      "fp16": 14,
+      "int8": 8,
+      "int4": 5
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "chat",
+    "license": "Apache 2.0",
+    "huggingface_id": "HuggingFaceH4/zephyr-7b-beta",
+    "tags": ["chat", "recommended"]
+  },
+  {
+    "name": "OpenChat 3.5 7B",
+    "provider": "OpenChat",
+    "parameter_count": "7B",
+    "param_billions": 7,
+    "context_length": 8192,
+    "vram_requirements": {
+      "fp16": 14,
+      "int8": 8,
+      "int4": 5
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "chat",
+    "license": "Apache 2.0",
+    "huggingface_id": "openchat/openchat-3.5-0106",
+    "tags": ["chat"]
+  },
+  {
+    "name": "Neural Chat 7B",
+    "provider": "Intel",
+    "parameter_count": "7B",
+    "param_billions": 7,
+    "context_length": 8192,
+    "vram_requirements": {
+      "fp16": 14,
+      "int8": 8,
+      "int4": 5
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "chat",
+    "license": "Apache 2.0",
+    "huggingface_id": "Intel/neural-chat-7b-v3-3",
+    "tags": ["chat"]
+  },
+  {
+    "name": "Orca 2 7B",
+    "provider": "Microsoft",
+    "parameter_count": "7B",
+    "param_billions": 7,
+    "context_length": 4096,
+    "vram_requirements": {
+      "fp16": 14,
+      "int8": 8,
+      "int4": 5
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "reasoning",
+    "license": "MIT",
+    "huggingface_id": "microsoft/Orca-2-7b",
+    "tags": ["reasoning"]
+  },
+  {
+    "name": "Orca 2 13B",
+    "provider": "Microsoft",
+    "parameter_count": "13B",
+    "param_billions": 13,
+    "context_length": 4096,
+    "vram_requirements": {
+      "fp16": 26,
+      "int8": 14,
+      "int4": 8
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "reasoning",
+    "license": "MIT",
+    "huggingface_id": "microsoft/Orca-2-13b",
+    "tags": ["reasoning"]
+  },
+  {
+    "name": "Orca 2 70B",
+    "provider": "Microsoft",
+    "parameter_count": "70B",
+    "param_billions": 70,
+    "context_length": 4096,
+    "vram_requirements": {
+      "fp16": 140,
+      "int8": 75,
+      "int4": 40
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "reasoning",
+    "license": "MIT",
+    "huggingface_id": "microsoft/Orca-2-70b",
+    "tags": ["reasoning"]
+  },
+  {
+    "name": "TinyLlama 1.1B",
+    "provider": "TinyLlama",
+    "parameter_count": "1.1B",
+    "param_billions": 1.1,
+    "context_length": 2048,
+    "vram_requirements": {
+      "fp16": 2.2,
+      "int8": 1.5,
+      "int4": 0.8
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "tags": ["lightweight"]
+  },
+  {
+    "name": "Grok-1 314B MoE",
+    "provider": "xAI",
+    "parameter_count": "314B MoE",
+    "param_billions": 314,
+    "context_length": 8192,
+    "vram_requirements": {
+      "fp16": 628,
+      "int8": 330,
+      "int4": 175
+    },
+    "quantization": ["GGUF/INT4", "GGUF/INT8", "FP16"],
+    "category": "general",
+    "license": "Apache 2.0",
+    "huggingface_id": "xai-org/grok-1",
+    "tags": ["flagship", "moe"],
+    "active_params": 57
+  }
+]
